@@ -1,0 +1,10 @@
+How to correctly add a folder/file into a git hub repository:
+    1) first cd into folder on Cloud9 (ex: cd how-to-add-repository)
+    2) type git init
+    3) type git status (there should be red words)
+    4) then type git add .
+    5) again type git status (if the words are now green then it worked)
+    6) git commit -m "message"
+    7) git remote add origin https:// etc.
+    8) git push -u origin master (sign in)
+    9) refresh git hub page
